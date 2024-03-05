@@ -1,0 +1,8 @@
+﻿Variable,standard_min,standard_max,unit
+BOD,-99999,6000,mg.m-3
+Turbidity,-99999,30,NTU
+DO,5000,99999,mg.m-3
+pH,7,8.5,pH
+TN,-99999,300,mg.m-3
+TP,-99999,30,mg.m-3
+Mud,-99999,0.03,kg m-3
