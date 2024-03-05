@@ -6,3 +6,5 @@ pH,7,8.5,pH
 TN,-99999,300,mg.m-3
 TP,-99999,30,mg.m-3
 Mud,-99999,0.03,kg m-3
+rain_dec,86,86,degreeC
+rain_jan,138,138,degreeC
