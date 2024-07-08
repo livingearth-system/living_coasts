@@ -1,0 +1,12 @@
+products:
+    ga_ls_fc_3:
+        recipe:
+            &ga_ls_fc_3_recipe
+            product: ga_ls_fc_3
+            group_by: solar_day
+          
+    fractional_cover:
+        recipe:
+            &fractional_cover_recipe
+            transform: fractional_cover
+            input: *ga_ls_fc_3_recipe
