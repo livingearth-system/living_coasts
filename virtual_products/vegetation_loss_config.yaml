@@ -1,0 +1,47 @@
+# this yaml file is a config file for vegetation loss (extent) pressures
+# this is a list of virtual products to be loaded based on the impact being assessed
+products:
+    ga_ls5t_nbart_gm_cyear_3:
+        recipe:
+            &ga_ls5t_nbart_gm_cyear_3_recipe
+            product: ga_ls5t_nbart_gm_cyear_3
+            group_by: solar_day
+    
+    # best_pixel_gmad:
+    #     recipe:
+    #         &best_pixel_gmad_recipe
+    #         aggregate: best_pixel_gmad
+    #         group_by: year
+    #         input:
+    #             collate:
+    #                 - product: ga_ls8c_nbart_gm_cyear_3
+    #                 - product: ga_ls5t_nbart_gm_cyear_3
+    #                 - product: ga_ls7e_nbart_gm_cyear_3
+    #             index_measurement_name: sensor
+
+    bushfire:
+        receipe:
+        &bushfire_recipe
+        transform: bushfire
+        input: *ga_ls5t_nbart_gm_cyear_3_recipe
+        
+    
+    
+    
+    
+    
+    
+#     ga_ls_fc_3:
+#         recipe:
+#             &ga_ls_fc_3_recipe
+#             product: ga_ls_fc_3
+#             group_by: solar_day
+          
+          
+          
+          
+#     fractional_cover:
+#         recipe:
+#             &fractional_cover_recipe
+#             transform: fractional_cover
+#             input: *ga_ls_fc_3_recipe
