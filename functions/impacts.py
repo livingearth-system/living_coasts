@@ -8,7 +8,7 @@ dc = datacube.Datacube()
 def vegetation_loss(query_pre_impact, query_post_impact):
     '''
     Vegetation loss (extent)
-    TODO: put defintion here
+    TODO: put in defintion here
 
     # Level 3
     Cultivated terrestrial vegetation (111) --> Bare surface (216)

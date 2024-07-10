@@ -8,8 +8,6 @@ dc = datacube.Datacube()
 class bushfire(Transformation):
 
     def compute(self, data):
-        
-        
         # generate NBR
         data = calculate_indices(baseline,
                              index='NBR',
