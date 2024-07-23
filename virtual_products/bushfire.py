@@ -9,7 +9,7 @@ class bushfire(Transformation):
 
     def compute(self, data):
         # generate NBR
-        data = calculate_indices(baseline,
+        data = calculate_indices(data,
                              index='NBR',
                              collection='ga_ls_3',
                              drop=False)
