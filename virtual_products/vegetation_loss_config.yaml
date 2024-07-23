@@ -20,10 +20,10 @@ products:
     #             index_measurement_name: sensor
 
     bushfire:
-        receipe:
-        &bushfire_recipe
-        transform: bushfire
-        input: *ga_ls5t_nbart_gm_cyear_3_recipe
+        recipe:
+            &bushfire_recipe
+            transform: bushfire
+            input: *ga_ls5t_nbart_gm_cyear_3_recipe
         
     
     
