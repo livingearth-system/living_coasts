@@ -1,3 +1,3 @@
 # living_coasts
 
-<img src="LE_underwater_scheme.pdf" width="" height="" />
+<img src="LE_underwater_scheme.png" width="" height="" />
